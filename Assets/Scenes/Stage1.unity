@@ -286,11 +286,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &202737478 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013757487982, guid: 0037db73df1fafd40a9c0faaa0d8fdc0,
+    type: 2}
+  m_PrefabInternal: {fileID: 365910706}
 --- !u!4 &202737479 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013379599398, guid: 0037db73df1fafd40a9c0faaa0d8fdc0,
     type: 2}
   m_PrefabInternal: {fileID: 365910706}
+--- !u!50 &202737482
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 202737478}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1001 &365910706
 Prefab:
   m_ObjectHideFlags: 0
