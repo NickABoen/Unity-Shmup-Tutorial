@@ -334,11 +334,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013379599398, guid: 0037db73df1fafd40a9c0faaa0d8fdc0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.42
       objectReference: {fileID: 0}
     - target: {fileID: 4000013379599398, guid: 0037db73df1fafd40a9c0faaa0d8fdc0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 4000013379599398, guid: 0037db73df1fafd40a9c0faaa0d8fdc0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -429,6 +429,24 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &683631284 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012006824918, guid: ad444845942c27747a73f610f515ac20,
+    type: 2}
+  m_PrefabInternal: {fileID: 1514525411}
+--- !u!114 &683631285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 683631284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8329a48a95a36344b499af08af1545b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 10, y: 10}
+  direction: {x: -1, y: 0}
 --- !u!1 &699103581
 GameObject:
   m_ObjectHideFlags: 0
