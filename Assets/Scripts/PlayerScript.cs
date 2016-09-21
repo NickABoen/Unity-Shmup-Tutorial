@@ -23,6 +23,22 @@ public class PlayerScript : MonoBehaviour {
 
         // 4 - Movement per direction
         movement = new Vector2(speed.x * inputX, speed.y * inputY);
+
+        // 5 - Shooting
+        bool shoot = Input.GetButton("Fire1") || Input.GetButton("Fire2");
+
+        // Careful: For Mac users, ctrl + arrow is a bad idea
+
+        if (shoot)
+        {
+            WeaponScript weapon = GetComponent<WeaponScript>();
+            if(weapon != null)
+            {
+                // false because the player is not an enemy
+                weapon.Attack(false);
+            }
+        }
+
     }
 
     void FixedUpdate()
