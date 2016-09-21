@@ -24,7 +24,7 @@ GameObject:
   - 50: {fileID: 50000013441787016}
   - 114: {fileID: 114000012413837162}
   - 114: {fileID: 114000010520152524}
-  - 114: {fileID: 114000010752486996}
+  - 114: {fileID: 114000011326931710}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -89,7 +89,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1
   isEnemy: 1
---- !u!114 &114000010752486996
+--- !u!114 &114000011326931710
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -97,11 +97,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012006824918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7d54fc04cd91274d88a8eb34cf4475f, type: 3}
+  m_Script: {fileID: 11500000, guid: 49c98871bba21394d863c0bcf1ed3bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotPrefab: {fileID: 4000012580753058, guid: d83ad4caddac21341ae8c065218b123a, type: 2}
-  shootingRate: 0.25
 --- !u!114 &114000012413837162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -113,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8329a48a95a36344b499af08af1545b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 10, y: 10}
+  speed: {x: 5, y: 5}
   direction: {x: -1, y: 0}
 --- !u!212 &212000011321692986
 SpriteRenderer:
