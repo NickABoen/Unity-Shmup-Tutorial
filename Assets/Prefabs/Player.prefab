@@ -25,6 +25,7 @@ GameObject:
   - 114: {fileID: 114000013929347810}
   - 114: {fileID: 114000012532383168}
   - 114: {fileID: 114000013101470628}
+  - 114: {fileID: 114000010634710668}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -76,6 +77,21 @@ BoxCollider2D:
   m_Offset: {x: 0.015839338, y: 0.07920146}
   serializedVersion: 2
   m_Size: {x: 10, y: 10}
+--- !u!114 &114000010634710668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013757487982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8dcd0e6de8a98438794b5887708197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 1, y: 1}
+  direction: {x: 1, y: 0}
+  isLinkedToCamera: 1
+  isLooping: 0
 --- !u!114 &114000012532383168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -87,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7d54fc04cd91274d88a8eb34cf4475f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotPrefab: {fileID: 0}
+  shotPrefab: {fileID: 4000012580753058, guid: 0c2c9e4258645ea4a982e0553b103381, type: 2}
   shootingRate: 0.25
 --- !u!114 &114000013101470628
 MonoBehaviour:

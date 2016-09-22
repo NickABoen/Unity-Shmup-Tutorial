@@ -285,7 +285,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 190446080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 2.51, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -335,12 +335,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114000012532383168, guid: 0037db73df1fafd40a9c0faaa0d8fdc0,
-        type: 2}
-      propertyPath: shotPrefab
-      value: 
-      objectReference: {fileID: 4000012580753058, guid: 0c2c9e4258645ea4a982e0553b103381,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0037db73df1fafd40a9c0faaa0d8fdc0, type: 2}
   m_IsPrefabParent: 0
@@ -1058,7 +1052,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1872297021}
-  - 114: {fileID: 1872297022}
   m_Layer: 0
   m_Name: Foreground
   m_TagString: Untagged
@@ -1083,21 +1076,6 @@ Transform:
   - {fileID: 828590338}
   m_Father: {fileID: 1197971833}
   m_RootOrder: 3
---- !u!114 &1872297022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1872297020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e8dcd0e6de8a98438794b5887708197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 1, y: 1}
-  direction: {x: 1, y: 0}
-  isLinkedToCamera: 1
-  isLooping: 0
 --- !u!1001 &2031715554
 Prefab:
   m_ObjectHideFlags: 0
