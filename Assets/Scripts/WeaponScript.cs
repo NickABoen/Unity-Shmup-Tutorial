@@ -55,6 +55,16 @@ public class WeaponScript : MonoBehaviour {
             //Create a new shot
             var shotTransform = Instantiate(shotPrefab) as Transform;
 
+            //Create sound
+            if (isEnemy)
+            {
+                SoundEffectsHelper.Instance.MakeEnemyShotSound();
+            }
+            else
+            {
+                SoundEffectsHelper.Instance.MakePlayerShotSound();
+            }
+
             //Assign position
             shotTransform.position = transform.position;
 
